@@ -54,6 +54,7 @@ namespace Eand10PowerNotationConvertor
                         if (decimalPointAlreadyUsed)
                         {
                             text = text.Remove(i, 1);
+                            i--;
                         }
                         else
                         {
@@ -63,6 +64,7 @@ namespace Eand10PowerNotationConvertor
                     else
                     {
                         text = text.Remove(i, 1);
+                        i--;
                     }
                 }
                 i++;
